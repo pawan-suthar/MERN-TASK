@@ -10,7 +10,7 @@ app.use(cors())
 
 //db
 try {
-  mongoose.connect('mongodb+srv://task:task123@task.dzm2loy.mongodb.net/Task?retryWrites=true&w=majority', {
+  mongoose.connect('ADD YOUR MONGOATLAS DB LINK', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
